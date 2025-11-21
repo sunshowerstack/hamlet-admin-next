@@ -1,0 +1,14 @@
+import { NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server';
+import { getToken } from './utils/auth';
+import { paths } from './paths';
+
+export function middleware(request: NextRequest) {
+  console.log('中间件执行start..');
+  if (request.nextUrl.pathname.startsWith('/dashboard')) {
+    // if (!getToken()) {
+    //   // 重定向到登录页面
+    // NextResponse.redirect(new URL(paths.auth.signIn, request.url));
+    // }
+  }
+}
