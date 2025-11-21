@@ -1,14 +1,18 @@
 <h1 align="center">Hamlet Admin</h1>
 
 <div align="center">
-Next.js + MaterialUI实现的若依(ruoyi)系的现代化企业级中后台前端解决方案。element-ui，antd已经审美疲劳，可以的体验下MaterialUI的设计风格
+
+Next.js + MaterialUI（MUI）实现的若依(ruoyi)系的现代化企业级中后台前端解决方案。element-ui，antd已经审美疲劳，可以的体验下Material-UI（MUI）的设计风格
 <br />
 支持 React 19 / 18，Next.js 15+，Materail UI，zustand。
+
 [![React](https://img.shields.io/badge/React-19.x%20%7C%2018.x-blue?style=flat-square)](https://react.dev/)
 [![Next.js](https://img.shields.io/badge/Next.js-15%2B-black?style=flat-square)](https://nextjs.org/)
 [![Material%20UI](https://img.shields.io/badge/Material--UI-7+-lightgrey?style=flat-square)](https://mui.com/)
 [![Zustand](https://img.shields.io/badge/Zustand-purple?style=flat-square)](https://zustand.docs.pmnd.rs/getting-started/introduction/)
 [![License](https://img.shields.io/github/license/DLand-Team/moderate-react-admin?style=flat-square)](./LICENSE)
+
+</div>
 
 # 在线演示
 
@@ -45,7 +49,7 @@ Next.js + MaterialUI实现的若依(ruoyi)系的现代化企业级中后台前�
 
 - React 18 / React 19
 - Next.js 15
-- Material UI
+- Material UI（MUI）
 - Zustand
 - Zod
 - App Router
@@ -146,8 +150,6 @@ npm run dev
 ### 登录
 
 ![图片描述](./public/assets/mobile-1.png)
-
-
 
 ### 用户管理，角色管理，通知公告
 
